@@ -17,21 +17,18 @@ namespace pjCuartoSistematico
             InitializeComponent();
         }
 
-        private void AformHija(object formHija)
-        {
-            Form fr = new Form();
-            fr.Show();
-
-        }
+        
 
         private void btn2D_Click(object sender, EventArgs e)
         {
-            AformHija(new frm2D());
+            Form fr = new frm2D();
+            fr.Show();
         }
 
         private void btn3D_Click(object sender, EventArgs e)
         {
-            AformHija(new frm3D());
+            Form fr = new frm3D();
+            fr.Show();
         }
     }
 }

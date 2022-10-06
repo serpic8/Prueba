@@ -9,6 +9,10 @@ namespace pjCuartoSistematico
   
     internal class Tetraedro : FiguraTridimensional
     {
+        public Tetraedro()
+        {
+        }
+
         public Tetraedro(int b, int h, int l, int r) : base(b, h, l, r)
         {
 

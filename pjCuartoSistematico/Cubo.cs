@@ -8,6 +8,10 @@ namespace pjCuartoSistematico
 {
     internal class Cubo : FiguraTridimensional
     {
+        
+        
+        public Cubo() { }
+
         public Cubo(int b, int h, int l, int r) : base(b, h, l, r)
         {
         
@@ -27,6 +31,8 @@ namespace pjCuartoSistematico
                 AreaCubo = (int)(6 * Math.Pow(l, 2));
             }
         }
+
+        
 
         public int VolumenCubo
         {

@@ -8,6 +8,10 @@ namespace pjCuartoSistematico
 {
     internal class Triangulo : FiguraBidimensional
     {
+        public Triangulo()
+        {
+        }
+
         public Triangulo(int b, int h, int l, int r) : base(b, h, l, r)
         {
 

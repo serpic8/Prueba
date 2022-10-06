@@ -8,6 +8,10 @@ namespace pjCuartoSistematico
 {
     internal class Circulo : FiguraBidimensional
     {
+        public Circulo()
+        {
+        }
+
         public Circulo(int b, int h, int l, int r) : base(b, h, l, r)
         {
 

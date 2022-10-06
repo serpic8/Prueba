@@ -9,6 +9,10 @@ namespace pjCuartoSistematico
 {
     internal class Cuadrado : FiguraBidimensional
     {
+        public Cuadrado()
+        {
+        }
+
         public Cuadrado(int b, int h, int l, int r) : base(b, h, l, r)
         {
            

@@ -8,6 +8,10 @@ namespace pjCuartoSistematico
 {
     internal class Esfera : FiguraTridimensional
     {
+        public Esfera()
+        {
+        }
+
         public Esfera(int b, int h, int l, int r) : base(b, h, l, r)
         {
 

@@ -9,6 +9,9 @@ namespace pjCuartoSistematico
     internal class FiguraTridimensional : Figura
     {
         private int radio;
+
+       
+
         public FiguraTridimensional(int b, int h, int l, int r) : base(b, h, l)
         {
             radio = r;  
